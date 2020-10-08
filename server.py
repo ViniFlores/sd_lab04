@@ -3,8 +3,7 @@ import select
 import sys 
 import threading
 
-server = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
-server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) 
+server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 IP_address = '127.0.0.1'
   
